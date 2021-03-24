@@ -25,7 +25,7 @@ class Dashboard extends Component {
   }
 
   handleAddFood = async food => {
-    const { foods } = this.state;
+    const { foods } = this.state; 
 
     try {
       const response = await api.post('/foods', {
